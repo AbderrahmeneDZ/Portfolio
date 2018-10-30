@@ -52,6 +52,11 @@ nav .fab{
     background-color: white;
 }
 
+.projects .col-md-6{
+    height: 100% !important;
+    min-height: 700px;
+}
+
 @media(max-width:500px){
     h1{
         font-size: 25px;
