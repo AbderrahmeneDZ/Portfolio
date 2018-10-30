@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/brands.css" integrity="sha384-BCEeiNUiLzxxoeYaIu7jJqq0aVVz2O2Ig4WbWEmRQ2Dx/AAxNV1wMDBXyyrxw1Zd" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/fontawesome.css" integrity="sha384-HU5rcgG/yUrsDGWsVACclYdzdCcn5yU8V/3V84zSrPDHwZEdjykadlgI6RHrxGrJ" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Abderrahmene Bouidia</title>
 </head>
 
-<body>
+<body class="pb-5">
 <!-- model to follow : https://themes.3rdwavemedia.com/wp-content/uploads/2018/06/bootstrap-portfolio-template-for-developers-instance-about-page.jpg-->
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
@@ -48,10 +49,77 @@
             </ul>
         </div>
     </nav>
+    
+    <!-- #region About -->
 
-    <main role="main" class="container-fluid">
+    <div class="px-5 py-5">
+        <div class="container px-5 pt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/abderrahmeneDz.jpg" alt="AbderrahmeneDz" class="img-fluid img-thumbnail rounded">
+                </div>
+                <div class="col-md-8 about-col py-5">
+                    <h6>Hello, My name is</h6>
+                    <h1>Bouidia Abderrahmene</h1>
+                    <p class="text-justify">
+                        I am a computer engineer specialized in software development, I do mobile & web development (Front-end & Back-end)
+                        and I can also create desktop application. I love programming and I like spending my time on learning new programming languages and frameworks.
+                        <br>
+                        My goal in next five years is to be an expert in software development, after that maybe I will change the world.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    </main>
+    <!-- #endregion About -->
+
+    <!-- #region Skills -->
+
+    <div class="container skills">
+        <h1 class="text-center mb-5">Skills Overview</h1>
+        <div class="row">
+            <div class="col-md-4 mb-2 px-4">
+                <div class="card py-2">
+                    <div class="card-img img-thumbnail rounded mx-auto d-block my-2">
+                        <img class="" src="images/ic_front-end.png" alt="Front end">
+                    </div>
+                    <h4 class="text-center mt-2">Front-End</h4>
+                    <h6 class="ml-5"><i class="material-icons">check</i><b>Angular</b></h6>
+                    <h6 class="ml-5"><i class="material-icons">check</i><b>HTML5/CSS3</b></h6>
+                    <h6 class="ml-5"><i class="material-icons">check</i><b>Javascript</b></h6>
+                    <h6 class="ml-5"><i class="material-icons">check</i><b>Typescript</b></h6>
+                    <h6 class="ml-5"><i class="material-icons">check</i><b>ReactJs (Beginner)</b></h6>
+                </div>
+            </div>
+            <div class="col-md-4  mb-2 px-4">
+                <div class="card py-2">
+                    <div class="card-img img-thumbnail rounded mx-auto d-block my-2">
+                        <img class="" src="images/ic_back-end.png" alt="Front end">
+                    </div>
+                    <h4 class="text-center mt-2">Back-End</h4>
+                    <h6 class="ml-5"><i class="material-icons">check</i><b>Asp .Net MVC5</b></h6>
+                    <h6 class="ml-5"><i class="material-icons">check</i><b>Asp .Net Web Api</b></h6>
+                    <h6 class="ml-5"><i class="material-icons">check</i><b>Express Js</b></h6>
+                    <h6 class="ml-5"><i class="material-icons">check</i><b>Laravel (Beginner)</b></h6>
+                    <h6 class="ml-5"><i class="material-icons">check</i><b>Spring Boot (Beginner)</b></h6>
+                </div>
+            </div>
+            <div class="col-md-4  mb-2 px-4">
+                <div class="card py-2">
+                    <div class="card-img img-thumbnail rounded mx-auto d-block my-2">
+                        <img class="" src="images/ic_mobile.png" alt="Front end">
+                    </div>
+                    <h4 class="text-center my-2">Mobile</h4>
+                    <h6 class="ml-5"><i class="material-icons">check</i><b>Android SDK/Java</b></h6>
+                    <h6 class="ml-5"><i class="material-icons">check</i><b>Xamarin Forms</b></h6>
+                    <h6 class="ml-5"><i class="material-icons">check</i><b>Flutter</b></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- #endregion Skills -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
