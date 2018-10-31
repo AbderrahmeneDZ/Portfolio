@@ -50,13 +50,8 @@ nav .fab{
 
 .projects .card-img{
     background-color: white;
+    min-width: 150px;
 }
-
-.projects .col-md-6{
-    height: 100% !important;
-    min-height: 700px;
-}
-
 @media(max-width:500px){
     h1{
         font-size: 25px;
