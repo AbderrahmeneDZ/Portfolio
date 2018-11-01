@@ -1,6 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
 body *{
     font-family: 'Roboto', sans-serif;
     color: #263238;
+}
+.nav-link{
+    color: white !important;
 }
 nav{
     background-color: #2196F3;
@@ -81,6 +87,7 @@ nav .fab{
 
 footer{
     background-color: rgb(23, 102, 167);
+    min-height: 150px;
 }
 
 footer ul .fab{
