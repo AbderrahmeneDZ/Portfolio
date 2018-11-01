@@ -6,7 +6,7 @@ body *{
     color: #263238;
 }
 .nav-link{
-    color: white !important;
+    color: white;
 }
 nav{
     background-color: #2196F3;
