@@ -47,6 +47,11 @@ nav .fab{
     height: 64px;
 }
 
+.tags-container > span{
+    margin-top: 2px;
+    display: inline-block;
+}
+
 .hash{
     background-color: rgb(23, 102, 167);
     color: white;
