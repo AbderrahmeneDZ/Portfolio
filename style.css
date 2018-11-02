@@ -47,6 +47,10 @@ nav .fab{
     height: 64px;
 }
 
+/* .tags-container{
+    text-align: justify;
+} */
+
 .tags-container > span{
     margin-top: 2px;
     display: inline-block;
